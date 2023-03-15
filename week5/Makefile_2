@@ -1,0 +1,5 @@
+all: 
+	gcc debug.c -o debug.out
+
+debug:
+	gcc -g debug.c -o debug.out
