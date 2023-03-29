@@ -8,9 +8,9 @@
 # MiB Mem :  15690.1 total,  13981.5 free,    608.6 used,   1099.9 buff/cache
 # MiB Swap:    980.0 total,    980.0 free,      0.0 used.  14695.4 avail Mem 
 # -----
-# ponceca1 pts/0        2023-03-26 02:53 (138.51.8.146)
-# ponceca1 pts/1        2023-03-26 02:14 (138.51.8.146)
-# ponceca1 pts/2        2023-03-26 02:29 (138.51.8.146)
+# marcelo pts/0        2023-03-26 02:53 (138.51.8.146)
+# marcelo pts/1        2023-03-26 02:14 (138.51.8.146)
+# marcelo pts/2        2023-03-26 02:29 (138.51.8.146)
 # -----
 #                total        used        free      shared  buff/cache   available
 # Mem:              16           0          14           0           1          15
