@@ -19,8 +19,8 @@
 
 # Linux iits-i406-01 5.19.0-32-generic #33~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Jan 30 17:03:34 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
 
-max=$1
-delay=$2
+max=${1:-5}
+delay=${2:-1}
 for (( i=1; i <= $max; ++i ))
 do
     echo Sample $i of $max, every $delay sec
