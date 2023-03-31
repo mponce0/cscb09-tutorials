@@ -8,8 +8,8 @@
 # i.e., ./shell_2.sh ./shell_2_program.out 10 1
 
 program=$1
-max=$2
-sleep_time=$3
+max=${2:-10}
+sleep_time=${3:-1}
 for (( i=1; i <= $max; ++i ))
 do
     $program
