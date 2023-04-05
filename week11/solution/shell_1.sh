@@ -2,5 +2,10 @@
 # You can either use cp or rsync.
 # The destination of the backup will be given by a command line argument passed into the script.
 
-dest=$1
-zip -r $dest/backup.zip /home/test
+if [ -z "$1" ]
+then
+      echo "Please enter a destination directory"
+      exit 1
+fi
+
+zip -r $1/backup.zip /home/

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "netdb.h": "c",
+        "wrapsock.h": "c",
+        "unistd.h": "c"
+    }
+}
